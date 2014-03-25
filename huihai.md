@@ -61,9 +61,12 @@
 ####1.3惠海公众号用户信息接口
 	url:http://v.home3d.cn/home/capi/space.php?do=member
 	url:http://v.home3d.cn/home/capi/space.php?do=member&username=huihai
+	url:http://v.home3d.cn/home/capi/space.php?do=member&userId=gh_e1a171fe18d3
+
 >分两种情况：   
 >1，如果是想获取全平台用户，就是用第一种url，后缀不加上参数username   
 >2，第二种url是对某个公众帐号的用户进行获取，后缀username上只需带上你在惠海平台注册的公众号账号即可。
+>3，第三种url是对某个公众帐号的wxkey进行获取，后缀uuserID上只需带上你在获取的wxkey即可。
 
 返回数据（第二种情况）：
     
